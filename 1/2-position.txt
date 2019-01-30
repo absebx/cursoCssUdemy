@@ -1,0 +1,20 @@
+2-
+
+postion
+
+que posicion tendrá el objeto
+
+static: objeto que no puede deplazarse, es la forma predeterminada
+relative: se mueve con respecto a su posicion inicial
+  la posicion relativa no genera un desplasamiento para los objetos al rededor
+  por lo tanto si tengo un objeto cercano simplemente lo va a sobrepasar
+
+  los objetos relativos que estan dentro de otro objeto cambiarán el tamaño del padre,
+  por lo tanto los relativos "rellenan" al padre haciendolo crecer
+
+absolute: Posicion con respecto al objeto padre, las coordenadas que se moverá siempre
+  son con respecto al padre.
+
+  *El padre no tiene que tener posicioón estática
+
+fixed: posición con respecto a la ventana del navegador, no responde al scroll

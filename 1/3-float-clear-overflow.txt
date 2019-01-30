@@ -1,0 +1,25 @@
+3-
+
+float:
+  valores: none-left-right
+  es el valor de propiedad que permite que lo envuelvan y tiene comportamiento segun
+  los demás objetos y con respecto al padre
+
+  cuando interactua con otros objetos va llenando hacia el lugar en el cual va la direccion
+  si hay objetos de distinto tamaño, hace una linea "imaginaria", la cual se define por el objeto
+  mas largo y pone el siguiente objeto de la línea debajo del mas largo, dejando los espacios 
+  en blanco
+
+clear:
+  valores: both, left, right, none
+  es el valor que permite saltarse las líneas de objetos con float, por ejemplo con both
+  se pone abajo de los objetos que están con float right
+
+overflow:
+  valores: visible, hidden, scroll, auto
+  podemos definir que se hará con los elementos que exeden de la caja padre
+  visible: se muestran los valores que sobrepasan la caja
+  hidden: no se muestran los que sobrepadan
+  scroll: muestra barra de scroll aunque no la necesite
+  auto: muestra scroll solamente cuando lo necesita
+  

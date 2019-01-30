@@ -1,0 +1,16 @@
+4-display
+
+valores: inline, block, indline-block, none
+
+inline: valor por defecto, uno detrás de otro.
+  no se pueden modificar valores como el padding u otros.
+
+
+block: ocupa todo el espacio del reglon en el que se encuentre, esto es conrespecto
+  al padre. Si hay un objeto en inline se lo salta y ocupa una nueva línea.
+
+
+inline-block: un objeto que se puede modificar, pero su posición es como el inline, se pone
+  a un lado del otro.
+
+none: el objeto desaparece y no ocupa espacio

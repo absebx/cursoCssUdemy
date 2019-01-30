@@ -1,0 +1,32 @@
+1-
+Todos los objetos son cajas
+selectores
+los objetos son modificados con propiedades
+las propiedades se heredan de padres a hijos
+
+selector{
+  propiedad: valor;
+  propiedad2: "valor largo";
+}
+los selectores siempre están en minusculas y separados por guiones "-"
+
+ancho y alto: toda caja tiene un ancho y un alto predefinido
+el ancho y alto normalmente está definido por el contenido
+
+padding: espacio entre el contenido y el borde de la caja
+
+borde: linea al rededor del contenido de la caja
+
+tamaño final de una caja = ancho/alto+padding+borde;
+
+outline: linea "imaginaria" que existe al rededor del objeto, pero que no lo modifica
+como cuando haces click en un botón
+
+margen: espacio que existe alrededor del objeto
+
+--otra manera de trabjar las cajas
+
+box-sizing: border-box -->
+  el valor que se ingresa es el total que ocupará la caja tomando en cuenta ya el valor
+  del borde y del padding.
+
