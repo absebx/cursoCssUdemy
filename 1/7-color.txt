@@ -1,0 +1,25 @@
+--como usar color en html
+RGB -- saturacion del color
+R(rojo) G(verde) B(Azul)
+#00aFF  00 a 00aFF  00aFF
+
+sistema exadecimal:0-255
+
+negro: #000000
+blanco: #ffffff
+gris: #dddddd -> los tres colores tienen que estar en la misma saturacion, solor que
+uno será mas claro o mas oscuro
+
+rojo: #ff0000
+verde: #00ff00
+azul: #0000ff
+
+se puede seleccionar un color con 3 dijitos siempre que el segundo se repita
+ejemplo: #9933ff -> #93f
+
+
+RGBA
+rgba(rojo,verde,azul,alpha) alpha->0-1 la opacidad, 1->100% opacidad(opaco) 0->0%(transparente)
+pero aquí no hay exadecimal
+
+

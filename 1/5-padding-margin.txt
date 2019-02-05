@@ -1,0 +1,15 @@
+5-p
+adding-margin
+--------------
+
+margin: (para todos);
+margin: (vertical)(horizontal);
+margin: (arriba) (horizontal) (abajo);
+margin: (arriba) (derecha) (abajo) (izquierda)
+
+alineacion vertical:
+------------------
+vertical-align: (top, bottom, middle, baseline)
+como la caja se alineará con respecto a las otras cajas que tiene a LOS LADOS.
+esto es para las cajas, no para el texto o el contenido dentro de una caja.
+
