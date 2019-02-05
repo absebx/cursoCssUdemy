@@ -1,0 +1,44 @@
+/* tipos de selectores */
+/* por Etiqueta nombre*/
+/* por id  #hola, tiene que ser único dentro de la página*/
+/* <objeto id="hola"> */
+
+/* por clase .clase, para muchos ojetos con igual característica*/
+/* <objeto class="hola"> */
+
+/* pseudoclase, cuando es un estado */
+/* a:hover */
+/* hover, focus, :first-child, :last-child, before, after */
+
+/* por atributo */
+/* <input type="text"> --> input[type=text] */
+
+
+/* agrupar selectores */
+/* todos se incluyen */
+/* a:hover, #yo, .rojo, input{
+
+} */
+
+/* selector descendiente */
+/* selecciona todos los descendientes */
+/* los espacios en blanco significa que busca cualquier 
+objeto de ese tipo que descienda del que se busca */
+/* div a{
+
+} */
+
+/* Selector de hijo */
+/* busca los hijos directos */
+/* div > a{
+
+} */
+
+/* selector universal */
+/* selecciona todos los objetos */
+/* *{
+  color: black;
+} */
+/* span > *{ -> cualquier hijo directo dentro de un span
+
+} */
